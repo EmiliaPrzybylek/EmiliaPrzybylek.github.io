@@ -264,7 +264,7 @@ a {
 
 .form {
   width: 95%;
-  font-family: Robot, "sans-serif";
+  font-family: Roboto, "sans-serif";
 }
 @media screen and (min-width: 768px) {
   .form {
@@ -338,6 +338,31 @@ a {
 }
 .site-section--bg-color {
   background-color: #504533;
+}
+
+.site-contact {
+  min-height: 70vh;
+  padding-top: 3rem;
+  background: url("../../assets/img/bg_contact.jpeg") center/cover fixed;
+  color: #eff0f3;
+  position: relative;
+  height: 85vh;
+}
+.site-contact__blackout {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.site-contact__h2 {
+  position: absolute;
+}
+.site-contact__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
 }
 
 .text-color-white {
