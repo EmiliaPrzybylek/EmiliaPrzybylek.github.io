@@ -1,0 +1,129 @@
+.cookies {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    line-height: 2rem;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.cookies__text {
+    width: 70%;
+    text-align: justify;
+    padding: .5rem;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .cookies__text {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cookies__close {
+        width: 10%;
+    }
+}
+
+
+.cookies__close {
+    width: 30%;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    padding: .5rem;
+    text-align: right;
+}
+
+.cookies__close a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.cookies__close a:hover {
+    color: red;
+}
+
+
+
+
+// .site-cookies {
+//     display: none;
+//     position: fixed;
+//     bottom: 0;
+//     right: 0;
+//     width: 100%;
+//     line-height: 2rem;
+//     padding: .5rem;
+//     background-color: black;
+//     color: white;
+//     font-size: 1.4rem;
+//     font-family: "Roboto", sans-serif;
+    
+//     &__text {
+//         width: 70%;
+//         text-align: justify;
+//         padding: .5rem;
+        
+//     }
+
+//     &__close {
+//         width: 30%;
+//         position: absolute;
+//         top: .5rem;
+//         right: .5rem;
+//         padding: .5rem;
+//         text-align: right;
+//     }
+    
+//     &__close a {
+//         text-decoration: none;
+//         color: inherit;
+    
+//     }
+    
+//     &__close a:hover {
+//         color: red;
+//     }
+    
+// }
+
+
+@media screen and (min-width: 768px) {
+    .site-cookies__text {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .site-cookies__close {
+        width: 10%;
+    }
+}
+
+
+// .site-cookies__close {
+//     width: 30%;
+//     position: absolute;
+//     top: .5rem;
+//     right: .5rem;
+//     padding: .5rem;
+//     text-align: right;
+// }
+
+// .site-cookies__close a {
+//     text-decoration: none;
+//     color: inherit;
+
+// }
+
+// .site-cookies__close a:hover {
+//     color: red;
+// }
