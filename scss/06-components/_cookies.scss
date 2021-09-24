@@ -10,14 +10,33 @@
     color: white;
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
+    
+    &__text {
+        width: 70%;
+        text-align: justify;
+        padding: .5rem;
+    }
+
+    &__close {
+        width: 30%;
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        padding: .5rem;
+        text-align: right;
+    }
+    
+    &__close a {
+        text-decoration: none;
+        color: inherit;
+    
+    }
+    
+    &__close a:hover {
+        color: red;
+    }
 }
 
-.cookies__text {
-    width: 70%;
-    text-align: justify;
-    padding: .5rem;
-    
-}
 
 @media screen and (min-width: 768px) {
     .cookies__text {
@@ -31,22 +50,3 @@
     }
 }
 
-
-.cookies__close {
-    width: 30%;
-    position: absolute;
-    top: .5rem;
-    right: .5rem;
-    padding: .5rem;
-    text-align: right;
-}
-
-.cookies__close a {
-    text-decoration: none;
-    color: inherit;
-
-}
-
-.cookies__close a:hover {
-    color: red;
-}
