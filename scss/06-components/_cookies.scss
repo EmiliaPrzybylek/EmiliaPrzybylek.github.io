@@ -1,13 +1,8 @@
 .cookies {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
     width: 100%;
-    line-height: 2rem;
-    padding: .5rem;
     background-color: black;
     color: white;
+    line-height: 2rem;
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
     
@@ -35,18 +30,19 @@
     &__close a:hover {
         color: red;
     }
+
+    @media screen and (min-width: 768px) {
+        .cookies__text {
+            width: 90%;
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .cookies__close {
+            width: 10%;
+        }
+    }
 }
 
 
-@media screen and (min-width: 768px) {
-    .cookies__text {
-        width: 90%;
-        text-align: center;
-    }
-}
-@media screen and (min-width: 768px) {
-    .cookies__close {
-        width: 10%;
-    }
-}
 
