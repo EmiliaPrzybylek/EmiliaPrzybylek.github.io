@@ -1,4 +1,3 @@
-# EmiliaPrzybylek.github.io
 Simple restaurant website
 
-<a href="http://EmiliaPrzybylek.github.io" target="_blank"> Preview </a>
+<a href="https://emiliaprzybylek.github.io/Restaurant_Website/" target="_blank"> Preview </a>
